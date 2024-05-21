@@ -1,0 +1,54 @@
+{
+    "products": [
+      {
+        "id": "8bba",
+        "name": "Jogo",
+        "price": 15
+      },
+      {
+        "id": "f77f",
+        "name": "Cadeira",
+        "price": 200
+      },
+      {
+        "id": "6ff2",
+        "name": "Amnesia The Bunker",
+        "price": 55
+      },
+      {
+        "id": "cbf2",
+        "name": "mouse",
+        "price": 60
+      },
+      {
+        "id": "66a0",
+        "name": "Vaso",
+        "price": 50
+      },
+      {
+        "id": "33f2",
+        "name": "Livro",
+        "price": 20
+      },
+      {
+        "id": "220d",
+        "name": "Mochila",
+        "price": 100
+      },
+      {
+        "id": "7afd",
+        "name": "Cabo HDMI",
+        "price": 10
+      },
+      {
+        "id": "f4b3",
+        "name": "Mesa",
+        "price": 25
+      },
+      {
+        "id": "53fa",
+        "name": "Cabeceira",
+        "price": 35
+      }
+    ]
+  }
