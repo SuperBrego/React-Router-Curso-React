@@ -1,7 +1,7 @@
 import './App.css';
 
 // Aula 1 - Configurando React Router
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 // Páginas
 import Home from './pages/Home';
@@ -34,6 +34,8 @@ function App() {
           <Route path='/search' element={<Search />} />
           {/* 404 */}
           <Route path='*' element={<NotFound />} />
+          {/* Redirecionamento */}
+          <Route path='/company' element={<Navigate to={'/about'} />} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -41,4 +43,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
