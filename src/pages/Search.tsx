@@ -3,9 +3,10 @@ import { useSearchParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
 
 export default function Search(): ReactElement {
-    const searchParams = useSearchParams();
+    let [searchParams] = useSearchParams();
 
     const url = "http://localhost:3000/products?" + searchParams;
+
     const { data: items, loading, errors } = useFetch(url);
 
     console.log(items)

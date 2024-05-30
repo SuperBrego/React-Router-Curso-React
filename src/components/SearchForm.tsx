@@ -7,7 +7,7 @@ export default function SearchForm(): ReactElement {
 
     const handleSubmit = (e: any) => {
         e.preventDefault();
-        navigate('/search?q=' + query);
+        navigate("/search?q=" + query);
     }
 
     return <>
